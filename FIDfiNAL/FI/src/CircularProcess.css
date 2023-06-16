@@ -1,0 +1,68 @@
+/* .circular-progress {
+    width: 70px;
+    height: 90px;
+    padding-right: 110px;
+  }
+  
+  .background {
+    fill: #ddd; 
+  }
+  
+  .progress {
+    fill: transparent;
+    stroke-width: 10px;
+    stroke-linecap: round;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+    transition: stroke 0.3s ease;
+  }
+  
+  .percentage {
+    font-size: 20px;
+    text-anchor: middle;
+    dominant-baseline: central;
+  }
+   */
+
+   /* .circular-progress {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .background {
+    fill: transparent;
+    stroke: #ddd;
+    stroke-width: 10;
+  }
+  
+  .progress {
+    fill: transparent;
+    stroke: green;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform-origin: 50% 50%;
+    transform: rotate(-90deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .reflection {
+    fill: transparent;
+  }
+  
+  .reflection::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0) 70%);
+    z-index: 1;
+  }
+  
+  .percentage {
+    font-size: 20px;
+    text-anchor: middle;
+    dominant-baseline: central;
+  }
+   */

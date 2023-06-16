@@ -1,0 +1,70 @@
+.container {
+    background-color: #004A96;
+    color: #fff;
+
+
+}
+  
+  .textInputStyle {
+    color: #fff;
+    font-size: 12px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    padding-left: 20px;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: #004A96;
+    border-color: #fff;
+    width: 96%;
+  }
+  
+  .closeIcon {
+    position: absolute;
+    bottom: 15px;
+    right: 35px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  /* .magnifyIcon {
+    position: absolute;
+    bottom: 15px;
+    right: 14px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    justify-content: center;
+    text-align: center;
+  }
+  */
+
+  .searchIcon{
+    position:absolute;
+    right: 5%;
+    z-index: 999;
+    top: 14%;
+  }
+  
+  .clearIcon{
+    position:absolute;
+    right: 7%;
+    z-index: 999;
+    top: 14%;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    .searchIcon{
+      position:absolute;
+    right: 5%;
+    z-index: 999;
+    top: 12%;
+    }
+    .clearIcon{
+      position:absolute;
+      right: 11%;
+      z-index: 999;
+      top: 12%;
+    }
+  }
